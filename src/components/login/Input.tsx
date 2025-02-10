@@ -10,12 +10,12 @@ export default function Input( { label, type, placeholder }: Props ) {
   return (
     <div>
       <label
-        className="block text-2xl pb-1.5"
+        className="block pb-1.5"
       >{ label }</label>
       <input
         type={ type }
         placeholder={ placeholder }
-        className="border-2 border-black rounded-md p-1 pl-1.5 text-2xl"
+        className="border-2 border-black rounded-md p-1 pl-2 w-100"
       />
     </div>
   );
